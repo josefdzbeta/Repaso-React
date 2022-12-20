@@ -95,9 +95,9 @@ function App() {
         <h2 className='text-2xl font-extrabold text-gray-500 text-center'>
           Resumen <span className='text-indigo-600'>de Pagos</span>
         </h2>
-        <p className='text-xl text-gray-500 tex-center '>{meses} Meses</p>
-        <p className='text-xl text-gray-500 tex-center '>{formatearDinero(total)}Total a Pagar</p>
-        <p className='text-xl text-gray-500 tex-center '>{formatearDinero(pago)}Pagos Mensuales </p>
+        <p className='text-xl text-gray-500 text-center '>{meses} Meses</p>
+        <p className='text-xl text-gray-500 text-center '>{formatearDinero(total)} Total a Pagar</p>
+        <p className='text-xl text-gray-500 text-center '>{formatearDinero(pago)} Pagos Mensuales </p>
       </div>
 
 
